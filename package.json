@@ -1,0 +1,30 @@
+{
+  "name": "asincronismojavascript",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo en javaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "promise": "node src/promise/index.js",
+    "challenge": "node src/promise/challenge.js",
+    "async": "node src/async/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielventura/asincronismoJavaScript.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "aventura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arielventura/asincronismoJavaScript/issues"
+  },
+  "homepage": "https://github.com/arielventura/asincronismoJavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
